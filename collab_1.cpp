@@ -313,6 +313,7 @@ int main()		//Анатолий
 	cout<<"Максимальное по модулю число в первой матрице:"<<endl << m1.max_mod() <<endl;
 	
 	matrix m3(m2);
+	cout<<"m3:"<<endl << m3 <<endl;
 	
 	m3=m2=m1;
 	cout<<endl<<endl; 
